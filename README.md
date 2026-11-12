@@ -40,14 +40,7 @@ Logistic Regression achieved the highest accuracy of 84.33%.
 
 Based on the experimental results, Logistic Regression performed better than SVM and Random Forest on the selected dataset.
 
-📁 Project Structure
-text
-Diabetes-Prediction/
-│
-├── dataset/
-├── diabetes_prediction.ipynb
-├── README.md
-└── requirements.txt
+
 
 🚀 How to Run the Project
 Clone this repository.
