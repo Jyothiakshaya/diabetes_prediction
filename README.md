@@ -1,18 +1,16 @@
-# diabetes_prediction
-Diabetes prediction of patients  using ml models 
-Machine Learning Model Comparison
+Diabetes Prediction Using Machine Learning
 📌 Project Overview
 
-This project focuses on building and comparing different Machine Learning models to identify which model performs best on the selected dataset.
+This project focuses on predicting whether a patient has diabetes using Machine Learning algorithms.
 
-The main objective is to train multiple models, evaluate their performance, and compare their results using appropriate evaluation metrics.
+The main objective is to build and compare different Machine Learning models and identify which model provides the best prediction performance.
 
 🎯 Objectives
-Understand and analyze the dataset.
+Analyze and understand the diabetes dataset.
 Perform data preprocessing and cleaning.
 Train multiple Machine Learning models.
-Compare model performance.
-Identify the best-performing model.
+Compare the performance of different algorithms.
+Identify the best-performing model based on accuracy.
 🛠️ Technologies Used
 Python
 Pandas
@@ -20,51 +18,51 @@ NumPy
 Matplotlib
 Seaborn
 Scikit-learn
-Jupyter Notebook / Google Colab
-🤖 Models Compared
+Google Colab / Jupyter Notebook
+🤖 Machine Learning Models Compared
 
-The following Machine Learning models were implemented and evaluated:
+Three different Machine Learning algorithms were implemented and evaluated:
 
-Model 1: A Support Vector Machine (SVM)
-Model 2: RandomForestclassifier
-Model 2: Logistic Regression
-
+Support Vector Machine (SVM)
+Random Forest Classifier
+Logistic Regression
 📊 Model Comparison
 
-The models were compared using suitable evaluation metrics to understand their performance.
+The models were evaluated based on their accuracy scores.
 
-Model	Accuracy
-Model 1	0.7898550724637681
-Model 2 0.746268656716418
-Model 3	0.8432835820895522
+Machine Learning Model	Accuracy
+Support Vector Machine (SVM)	78.99%
+Random Forest Classifier	74.63%
+Logistic Regression	84.33%
+🏆 Best Performing Model
 
+Logistic Regression achieved the highest accuracy of 84.33%.
 
-Best Performing Model: Logistic Regression
-
-Based on the evaluation results, Logistic Regression achieved the best performance among the models tested.
+Based on the experimental results, Logistic Regression performed better than SVM and Random Forest on the selected dataset.
 
 📁 Project Structure
 text
-ML-Model-Comparison/
+Diabetes-Prediction/
 │
 ├── dataset/
-├── ML_Model_Comparison.ipynb
+├── diabetes_prediction.ipynb
 ├── README.md
 └── requirements.txt
 
-🚀 How to Run
+🚀 How to Run the Project
 Clone this repository.
 Open the .ipynb file using Google Colab or Jupyter Notebook.
-Install the required libraries.
-Run the notebook cells.
-Review the model comparison and results.
+Install the required Python libraries.
+Run all the notebook cells.
+Review the model comparison and prediction results.
 📌 Conclusion
 
-This project helped explore different Machine Learning algorithms and understand how their performance varies on the same dataset.
+This project demonstrates the application of Machine Learning algorithms for diabetes prediction.
 
-By comparing multiple models, the project identifies the most suitable algorithm based on the evaluation results.
+By implementing and comparing SVM, Random Forest, and Logistic Regression, we observed differences in model performance.
 
-👨‍💻 Author
+Among the three models, Logistic Regression achieved the highest accuracy of 84.33%, making it the best-performing model in this experiment.
 
-JYOTHI AKSHAYA....
+👩‍💻 Author
 
+Jyothi Akshaya
